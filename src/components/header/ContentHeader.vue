@@ -1,15 +1,21 @@
 <template>
-    <div class="header flex">
-<div>
+  <div class="flex">
+
+    <div class="w">
+      <div class="headerflex ">
     <img class="logo" src="../../assets/img/avada-music-logo.png" alt="">
-</div>
-<input id="toggle" type="checkbox">
+    </div>
+    
+
+
+  <input id="toggle" type="checkbox">
 
 <label for="toggle" class="hamburger">
   <div class="top-bun"></div>
   <div class="meat"></div>
   <div class="bottom-bun"></div>
 </label>
+
 
 <div class="nav">
   <div class="nav-wrapper">
@@ -22,6 +28,16 @@
     </nav>
   </div>
 </div>
+  
+</div>
+  
+  <div class="text-box">
+    <h1 class="main-title">Untold stories</h1>
+    <p class="italic">There is an untold story behind every favourite song.</p>
+    <button class="btn-albums">LATEST ALBUMS</button>
+    <button class="btn-live">LIVE DATES</button>
+  </div>
+    
     </div>
 </template>
 
@@ -41,6 +57,52 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.btn-live{
+border: 1px solid white;
+background-color: transparent;
+font-size: 1.2rem ;
+padding: 15px 30px;
+color: white;
+margin: 10px;
+border-radius: 2px;
+cursor: pointer;
+}
+
+.btn-live:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+.btn-albums{
+  font-size: 1.2rem;
+  background-color: #ea4a56;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 2px;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.text-box{
+  text-align: center;
+  margin-top: 5%;
+}
+.main-title{
+  width: 100%;
+  font-size: 10rem;
+  color: white;
+  margin: 10% 0;
+  justify-content: center;
+  
+}
+
+.italic{
+  font-style: italic;
+  font-size: 1.9rem;
+  color: white;
+  margin: 50px;
+}
 h1 {
   text-align: center;
   letter-spacing: 1px;
@@ -50,6 +112,10 @@ h1 {
   transform: translateY(52%);
 }
 
+
+.w{
+  width:20%;
+}
 .logo{
     margin:10%;
 }
@@ -94,6 +160,8 @@ Nav Styles
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   transform: scale(0);
+  z-index: 1;
+  
 }
 .nav-wrapper {
   position: relative;
@@ -108,6 +176,7 @@ Nav Styles
 }
 .flex{
     display: flex;
+    
 }
 nav {
   text-align: left;

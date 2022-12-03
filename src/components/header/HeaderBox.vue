@@ -26,11 +26,14 @@ import ContentHeader from "../header/ContentHeader.vue"
 <style lang="scss" scoped>
 .box{
     width:100%;
-    height: 100vh;
-    background-color: blue;
+    height: 850px;
     background-image: url('../../assets/img/home_slider.jpg');
     background-size:cover;
     background-repeat: no-repeat;
+}
+
+.flex{
+    display: flex;
 }
 
 
