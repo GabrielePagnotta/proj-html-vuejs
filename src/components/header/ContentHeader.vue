@@ -33,9 +33,15 @@
   
   <div class="text-box">
     <h1 class="main-title">Untold stories</h1>
-    <p class="italic">There is an untold story behind every favourite song.</p>
-    <button class="btn-albums">LATEST ALBUMS</button>
-    <button class="btn-live">LIVE DATES</button>
+    <div class="subtitle-position">
+      <p class="italic">There is an untold story behind every favourite song.</p>
+    </div>
+    
+    <div class="buttons-position">
+      <button class="btn-albums">LATEST ALBUMS</button>
+      <button class="btn-live">LIVE DATES</button>
+    </div>
+    
   </div>
     
     </div>
@@ -57,13 +63,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.buttons-position{
+  margin-left: 10%;
+}
 .btn-live{
 border: 1px solid white;
 background-color: transparent;
 font-size: 1.2rem ;
 padding: 15px 30px;
 color: white;
-margin: 10px;
+margin: 10px 10px;
 border-radius: 2px;
 cursor: pointer;
 }
@@ -86,22 +96,26 @@ cursor: pointer;
 
 .text-box{
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 .main-title{
   width: 100%;
-  font-size: 10rem;
+  font-size: 9rem;
   color: white;
-  margin: 10% 0;
+  margin: 10% 5%;
   justify-content: center;
   
+}
+
+.subtitle-position{
+  margin-left: 10%;
 }
 
 .italic{
   font-style: italic;
   font-size: 1.9rem;
   color: white;
-  margin: 50px;
+  margin: 5% 10%;
 }
 h1 {
   text-align: center;
@@ -117,7 +131,7 @@ h1 {
   width:20%;
 }
 .logo{
-    margin:10%;
+    margin:18% 15%;
 }
 
 #toggle {
@@ -132,7 +146,6 @@ h1 {
   top: 5em;
   right: 5%;
   margin-left: -2em;
-  margin-top: -45px;
   width: 2em;
   height: 45px;
   z-index: 5;

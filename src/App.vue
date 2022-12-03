@@ -1,16 +1,22 @@
 <template>
   <div id="app">
     <HeaderBox :get="arraiNav"/>
+    <MusicIsLife />
+    <BandNews />
   </div>
 </template>
 
 <script>
 
 import HeaderBox from "./components/header/HeaderBox.vue"
+import MusicIsLife from "./components/main/MusicIsLife.vue"
+import BandNews from "./components/main/BandNews.vue"
 export default {
   name: 'App',
   components: {
    HeaderBox,
+   MusicIsLife,
+   BandNews,
   },
   
   data(){

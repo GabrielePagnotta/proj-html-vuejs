@@ -26,7 +26,7 @@ import ContentHeader from "../header/ContentHeader.vue"
 <style lang="scss" scoped>
 .box{
     width:100%;
-    height: 850px;
+    height: 1000px;
     background-image: url('../../assets/img/home_slider.jpg');
     background-size:cover;
     background-repeat: no-repeat;
