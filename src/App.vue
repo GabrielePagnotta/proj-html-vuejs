@@ -9,6 +9,7 @@
     <LastestNews />
     <CitationSinger />
     <CitationBox />
+    <DefaultTitle2 />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import DefaultTitle1 from "./components/main/DefaultTitle1.vue"
 import LastestNews from "./components/main/LastestNews.vue"
 import GridContent from "./components/main/GridContent.vue"
 import CitationBox from "./components/main/CitationBox.vue"
+import DefaultTitle2 from "./components/main/DefaultTitle2.vue"
 
 export default {
   name: 'App',
@@ -30,6 +32,7 @@ export default {
    LastestNews,
    GridContent,
    CitationBox,
+   DefaultTitle2,
   },
   
   data(){
