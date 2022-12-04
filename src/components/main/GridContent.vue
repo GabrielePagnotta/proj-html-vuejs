@@ -1,4 +1,5 @@
 <template>
+<div class="main">  
     <div class="main-container dflex main-gap">
         <div class="grid-1-cards main-gap dflex f-col">
             <div class="img-horizontal bg-mixer">
@@ -66,6 +67,7 @@
                 
         </div>
     </div>
+</div>
 </template>
 
 <script>
@@ -109,9 +111,15 @@ export default {
 // CONTAINERS
 .main-container {
     width: 60%;
+    padding-bottom: 5%;
     margin: 0 auto;
+    
 }
 
+.main {
+    width: 100%;
+    background-color: #292d39;
+}
 .vertical-content-cards {
     width: 100%;
     height: 600px;

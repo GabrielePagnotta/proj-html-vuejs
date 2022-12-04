@@ -1,8 +1,14 @@
 <template>
   <div id="app">
+    <!-- Header -->
     <HeaderBox :get="arraiNav"/>
+    <!-- Main -->
     <MusicIsLife />
-    <BandNews />
+    <DefaultTitle1 />
+    <GridContent />
+    <LastestNews />
+    <CitationSinger />
+    <CitationBox />
   </div>
 </template>
 
@@ -10,13 +16,20 @@
 
 import HeaderBox from "./components/header/HeaderBox.vue"
 import MusicIsLife from "./components/main/MusicIsLife.vue"
-import BandNews from "./components/main/BandNews.vue"
+import DefaultTitle1 from "./components/main/DefaultTitle1.vue"
+import LastestNews from "./components/main/LastestNews.vue"
+import GridContent from "./components/main/GridContent.vue"
+import CitationBox from "./components/main/CitationBox.vue"
+
 export default {
   name: 'App',
   components: {
    HeaderBox,
    MusicIsLife,
-   BandNews,
+   DefaultTitle1,
+   LastestNews,
+   GridContent,
+   CitationBox,
   },
   
   data(){
@@ -42,6 +55,7 @@ export default {
         },
         
       ]
+      
     }
   }
 }

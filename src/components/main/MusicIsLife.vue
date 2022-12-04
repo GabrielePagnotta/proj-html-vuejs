@@ -2,11 +2,11 @@
     <div class="main flex">
         <div class="line"></div>
         <div class="title-position">
-            <h1>Music Is Life</h1>
+            <h1>{{title}}</h1>
         </div>
         <div class="underline"></div>
         <article class="text">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, iure eum  sint nulla enim aperiam, perferendis voluptate facilis cupiditate ipsam! Aliquam quibusdam obcaecati totam aperiam?</p>
+            <p>{{subtitle}}</p>
         </article>
         
     </div>
@@ -15,8 +15,13 @@
 <script>
 
     export default {
-        name:"MusicIsLife",
-        
+        name:"DefaultTitle",
+        data(){
+            return{
+                title:"Music is life",
+                subtitle:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, iure eum  sint nulla enim aperiam, perferendivoluptate facilis cupiditate ipsam! Aliquam quibusdam obcaecati totam aperiam?",
+            }
+        }
     }
 </script>
 

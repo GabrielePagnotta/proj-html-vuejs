@@ -11,17 +11,13 @@
             </article>
         </div>
 
-        <GridContent />
     </div>
 </template>
 
 <script>
-import GridContent from "./GridContent.vue"
 export default {
-    name: "BandNews",
-    components: {
-        GridContent,
-    }
+    name: "DefaultTitle",
+    
 }
 </script>
 

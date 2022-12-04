@@ -31,7 +31,7 @@
   
 </div>
   
-  <!-- <div class="text-box">
+  <div class="text-box">
     <h1 class="main-title">Untold stories</h1>
     <div class="subtitle-position">
       <p class="italic">There is an untold story behind every favourite song.</p>
@@ -42,7 +42,7 @@
       <button class="btn-live">LIVE DATES</button>
     </div>
     
-  </div> -->
+  </div>
     
     </div>
 </template>
@@ -97,6 +97,7 @@ cursor: pointer;
 .text-box{
   text-align: center;
   margin-top: 10%;
+  margin-left: 4%;
 }
 .main-title{
   width: 100%;
