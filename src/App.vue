@@ -10,6 +10,8 @@
     <CitationSinger />
     <CitationBox />
     <DefaultTitle2 />
+    <ViewAllDates />
+    <FooterOne :img="imgFooter"  :get="arraiFooter"/>
   </div>
 </template>
 
@@ -22,6 +24,8 @@ import LastestNews from "./components/main/LastestNews.vue"
 import GridContent from "./components/main/GridContent.vue"
 import CitationBox from "./components/main/CitationBox.vue"
 import DefaultTitle2 from "./components/main/DefaultTitle2.vue"
+import ViewAllDates from "./components/main/ViewAllDates.vue"
+import FooterOne from "./components/footer/FooterOne.vue"
 
 export default {
   name: 'App',
@@ -33,6 +37,8 @@ export default {
    GridContent,
    CitationBox,
    DefaultTitle2,
+   ViewAllDates,
+   FooterOne,
   },
   
   data(){
@@ -57,7 +63,17 @@ export default {
           name:"Fans", class:"pink", link:"#"
         },
         
-      ]
+      ],
+      
+      arraiFooter:[
+        {name:"Home", link:"#"},
+        {name:"Meet The Band", link:"#"},
+        {name:"Live Dates", link:"#"},
+        {name:"Lastest News", link:"#"},
+        {name:"Albums", link:"#"},
+        {name:"Fans", link:"#"},
+      ],
+
       
     }
   }

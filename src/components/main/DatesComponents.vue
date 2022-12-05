@@ -1,5 +1,5 @@
 <template>
-    <div >
+    <div class="padding">
         <div class="tab">
         <input type="checkbox" id="chck1">
         <label class="tab-label" for="chck1">17/08/2020 GEM FESTIVAL 2020 ANAKALIA, GEORGIA</label>
@@ -16,8 +16,8 @@
       </div>
 
       <div class="tab">
-        <input type="checkbox" id="chck1">
-        <label class="tab-label" for="chck1">24/9/2020 GROOVEFEST DOMINICAL REPUBLIC</label>
+        <input type="checkbox" id="chck2">
+        <label class="tab-label" for="chck2">24/9/2020 GROOVEFEST DOMINICAL REPUBLIC</label>
         <div class="tab-content dflex">
           <div>
             <img src="../../assets/img/maps.png" alt="">
@@ -31,8 +31,8 @@
       </div>
 
       <div class="tab">
-        <input type="checkbox" id="chck1">
-        <label class="tab-label" for="chck1">31/10/2020 OASIS FESTIVAL 2020 MARRAKECH, MOROCCO</label>
+        <input type="checkbox" id="chck3">
+        <label class="tab-label" for="chck3">31/10/2020 OASIS FESTIVAL 2020 MARRAKECH, MOROCCO</label>
         <div class="tab-content dflex">
           <div>
             <img src="../../assets/img/maps.png" alt="">
@@ -46,8 +46,8 @@
       </div>
 
       <div class="tab">
-        <input type="checkbox" id="chck1">
-        <label class="tab-label" for="chck1">07/11/2020 MOGA FEESTIVAL - ESSAOURIAL, MOROCCO</label>
+        <input type="checkbox" id="chck4">
+        <label class="tab-label" for="chck4">07/11/2020 MOGA FEESTIVAL - ESSAOURIAL, MOROCCO</label>
         <div class="tab-content dflex">
           <div>
             <img src="../../assets/img/maps.png" alt="">
@@ -61,8 +61,8 @@
       </div>
 
       <div class="tab">
-        <input type="checkbox" id="chck1">
-        <label class="tab-label" for="chck1">10/12/2020 ENVISION FESTIVAL - UVITA, COSTA RICA</label>
+        <input type="checkbox" id="chck5">
+        <label class="tab-label" for="chck5">10/12/2020 ENVISION FESTIVAL - UVITA, COSTA RICA</label>
         <div class="tab-content dflex">
           <div>
             <img src="../../assets/img/maps.png" alt="">
@@ -108,6 +108,10 @@ input {
   opacity: 0;
   z-index: -1;
 }
+
+.padding{
+  padding:1rem;
+}
 // Layout
 .row {
   display:flex;
@@ -135,7 +139,7 @@ input {
   z-index: 0;
   &-label {
     display: flex;
-    padding: 1em;
+    padding: 1rem;
     background: $background;
     font-weight: bold;
     cursor: pointer;
