@@ -133,6 +133,7 @@ h1 {
 }
 .logo{
     margin:18% 15%;
+    cursor: pointer;
 }
 
 #toggle {
@@ -160,6 +161,7 @@ h1 {
   background-color: white;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
+  
 }
 
 /**
@@ -168,13 +170,14 @@ Nav Styles
 .nav {
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #ea4a56;;
   top: -100%; left: 0; right: 0; bottom: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   transform: scale(0);
-  z-index: 1;
+  z-index: 2;
+  
   
 }
 .nav-wrapper {
@@ -227,6 +230,7 @@ Animations
 #toggle:checked + .hamburger .top-bun {
   transform: rotate(-45deg);
   margin-top: 25px;
+  
 }
 #toggle:checked + .hamburger .bottom-bun {
   opacity: 0;
