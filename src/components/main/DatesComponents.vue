@@ -85,13 +85,12 @@
 
 <style lang="scss" scoped>
     .main{
-        background-color: blue;
         width:60%;
         margin: 0 auto;
     }
 
 $midnight: #292d39;
-$background : #2d2d45;
+$background : #323844;
 // General
 
 h1 {
@@ -110,7 +109,7 @@ input {
 }
 
 .padding{
-  padding:1rem;
+  padding:3rem;
 }
 // Layout
 .row {

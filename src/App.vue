@@ -11,7 +11,7 @@
     <CitationBox />
     <DefaultTitle2 />
     <ViewAllDates />
-    <FooterOne :img="imgFooter"  :get="arraiFooter"/>
+    <FooterOne  :get="arraiFooter"/>
   </div>
 </template>
 
@@ -66,12 +66,24 @@ export default {
       ],
       
       arraiFooter:[
-        {name:"Home", link:"#"},
-        {name:"Meet The Band", link:"#"},
-        {name:"Live Dates", link:"#"},
-        {name:"Lastest News", link:"#"},
-        {name:"Albums", link:"#"},
-        {name:"Fans", link:"#"},
+        {
+          name:"Home", link:"#"
+        },
+        {
+          name:"Meet The Band", link:"#"
+        },
+        {
+          name:"Live Dates", link:"#"
+        },
+        {
+          name:"Lastest News", link:"#"
+        },
+        {
+          name:"Albums", link:"#"
+        },
+        {
+          name:"Fans", link:"#"
+        },
       ],
 
       

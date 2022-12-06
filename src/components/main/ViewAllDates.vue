@@ -9,7 +9,7 @@
         name:"ViewAllDates",
         data(){
             return{
-                Buttonname:"VIEW ALL DATES"
+                Buttonname:"VIEW ALL LIVE DATES"
             }
         }
     }
@@ -22,7 +22,7 @@
         background-color:#ea4a56;
         color: white;
         transition: background-color 0.5s linear;
-        
+        word-spacing: 5px;
     }
 
     .dflex {
@@ -34,6 +34,6 @@
 .container:hover{
     background-color: white;
     color: black;
-    
+    word-spacing: 5px;
 }
 </style>

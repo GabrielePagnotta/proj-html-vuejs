@@ -32,7 +32,7 @@
 </div>
   
   <div class="text-box">
-    <h1 class="main-title">Untold stories</h1>
+    <h1 class="main-title">Untold Stories</h1>
     <div class="subtitle-position">
       <p class="italic">There is an untold story behind every favourite song.</p>
     </div>
@@ -66,6 +66,7 @@ export default {
 
 .buttons-position{
   margin-left: 10%;
+  margin-top: 10%;
 }
 .btn-live{
 border: 1px solid white;
@@ -96,7 +97,7 @@ cursor: pointer;
 
 .text-box{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 4%;
 }
 .main-title{
@@ -114,7 +115,7 @@ cursor: pointer;
 
 .italic{
   font-style: italic;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   color: white;
   margin: 5% 10%;
 }
@@ -132,7 +133,7 @@ h1 {
   width:20%;
 }
 .logo{
-    margin:18% 15%;
+    margin:20px 30px;
     cursor: pointer;
 }
 
@@ -145,9 +146,9 @@ h1 {
 **/
 .hamburger {
   position: absolute;
-  top: 5em;
-  right: 5%;
-  margin-left: -2em;
+  top: 2rem;
+  right: 3%;
+  margin-left: -1em;
   width: 2em;
   height: 45px;
   z-index: 5;
@@ -172,7 +173,7 @@ Nav Styles
   width: 100%;
   height: 100vh;
   background-color: #ea4a56;;
-  top: -100%; left: 0; right: 0; bottom: 0;
+  top: -50%; left: 0; right: 0; bottom: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   transform: scale(0);

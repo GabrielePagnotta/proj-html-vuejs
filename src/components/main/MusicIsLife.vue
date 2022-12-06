@@ -39,7 +39,7 @@
 }
 .main{
     width: 100%;
-    background-color: #4d6172;
+    background-color: #323844;
 }
 
 h1{
@@ -55,7 +55,7 @@ h1{
     font-size: 1.3rem;
     width: 50%;
     text-align: center;
-    color: #7780a4;
+    color: #7D7B8D;
     margin-top: 60px;
     margin-bottom: 100px;
 }
@@ -63,7 +63,7 @@ h1{
 .underline{
     width:23%;
     height:2px;
-    background-color:#859fb4;
+    background-color:#444E62;
     margin: 20px;
 }
 

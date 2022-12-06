@@ -15,7 +15,7 @@
     <section class="container bg-2">
         <div class="box1">
             <ul>
-                <li>&copy;copyright 2012-2020</li>
+                <li>&copy;copyright 2022-2023</li>
                 <li>|</li>
                 <li>AVADA BY THEME FUSION</li>
                 <li>|</li>
@@ -56,7 +56,7 @@
 .fa-facebook{
     font-size: 1.6rem;
     margin:5px;
-    background-color: #313141;
+    background-color: #323844;
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -66,7 +66,7 @@
 .fa-twitter{
     font-size: 1.6rem;
     margin:5px;
-    background-color: #313141;
+    background-color: #323844;
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -75,7 +75,7 @@
 .fa-instagram{
     font-size: 1.6rem;
     margin:5px;
-    background-color: #313141;
+    background-color: #323844;
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -83,7 +83,7 @@
 .fa-youtube{
     font-size: 1.6rem;
     margin:5px;
-    background-color: #313141;
+    background-color: #323844;
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -111,24 +111,24 @@
 
 
 .bg-1{
-    background-color: #313141;
+    background-color: #323844;
 }
 
 .bg-2{
-    background-color: #21212c;
+    background-color: #252A33;
     padding: 40px;
 }
 li a{
     float: left;
     margin: 10px;
     text-decoration: none;
-    color: gray;
+    color: #7D7B8D;
 }
 
 li{
     float:left;
     font-size: 15px;
-    color: gray;
+    color: #7D7B8D;
     cursor: pointer;
 }
 

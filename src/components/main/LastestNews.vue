@@ -22,6 +22,7 @@
         background-color:#ea4a56;
         color: white;
         transition: background-color 0.5s linear;
+        word-spacing: 5px;
     }
 
     .dflex {
@@ -33,5 +34,6 @@
 .container:hover{
     background-color: white;
     color: black;
+    word-spacing: 5px;
 }
 </style>

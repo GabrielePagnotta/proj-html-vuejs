@@ -118,7 +118,7 @@ export default {
 
 .main {
     width: 100%;
-    background-color: #292d39;
+    background-color: #252A33;
 }
 .vertical-content-cards {
     width: 100%;
@@ -163,11 +163,12 @@ export default {
 
 
 .description {
+    
     visibility: visible;
     width: 100%;
     height: 30%;
-    background-color: #313141;
-    color: #626984;
+    background-color: #323844;
+    color: #7D7B8D;
     transition: visibility 0.5s, opacity 0.5s;
     position: relative;
     z-index: 1;
@@ -179,8 +180,8 @@ export default {
     visibility: visible;
     width: 100%;
     height: 30%;
-    background-color: #313141;
-    color: #626984;
+    background-color: #323844;
+    color: #7D7B8D;
     transition: visibility 0.5s, opacity 0.5s;
     position: relative;
     z-index: 1;
@@ -192,8 +193,8 @@ export default {
     visibility: visible;
     width: 100%;
     height: 30%;
-    background-color: #313141;
-    color: #626984;
+    background-color: #323844;
+    color: #7D7B8D;
     transition: visibility 0.5s, opacity 0.5s;
     position: relative;
     z-index: 1;
@@ -204,8 +205,8 @@ export default {
     visibility: visible;
     width: 100%;
     height: 30%;
-    background-color: #313141;
-    color: #626984;
+    background-color: #323844;
+    color: #7D7B8D;
     transition: visibility 0.5s, opacity 0.5s;
     position: relative;
     top: -31%;
@@ -298,6 +299,7 @@ h1 {
     color: #ea4a56;
     margin: 10px 20px;
     font-size: 1.4rem;
+    padding-top: 20px;
 }
 
 p {
